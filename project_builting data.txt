@@ -1,0 +1,48 @@
+pyinstaller --onefile --windowed --exclude-module PyQt6 --exclude-module PySide6 --hidden-import=inflect --add-data "racing_car.png;." --add-data "Login_Registration_Form.py;." --add-data "Dashboard.py;." --add-data "serviceAccountKey.json;." Main_File.py
+##############################################################################################################################################################################################################################################==========================
+Method:1
+===================
+pyinstaller --onefile --windowed --exclude-module PyQt6 --exclude-module PySide6 --hidden-import=inflect --add-data "racing_car.png;." --add-data "Login_Registration_Form.py;." --add-data "Dashboard.py;." --add-data "serviceAccountKey.json;." --add-data "Images/Frame 422.png;Images" --add-data "Images/my.gif;Images" --add-data "Images/Header.png;Images" --add-data "Images/Blur_image.png;Images" --add-data "Images/Admin_image.png;Images" --add-data "Images/car_window_icon.png;Images" --add-data "dashboard_images/car_inventory.png;dashboard_images" --add-data "dashboard_images/admin_user.png;dashboard_images" --add-data "dashboard_images/search.png;dashboard_images" --add-data "dashboard_images/teamwork.png;dashboard_images" --add-data "Side_bar_icon/home.png;Side_bar_icon" --add-data "Side_bar_icon/sale.png;Side_bar_icon" --add-data "Side_bar_icon/purchase.png;Side_bar_icon" --add-data "Side_bar_icon/employee.png;Side_bar_icon" --add-data "Side_bar_icon/inventory.png;Side_bar_icon" --add-data "Side_bar_icon/financial.png;Side_bar_icon" --add-data "Side_bar_icon/report.png;Side_bar_icon" --add-data "Side_bar_icon/admin.png;Side_bar_icon" --add-data "Side_bar_icon/logut.png;Side_bar_icon" --add-data "card_images/sold_2156144.png;card_images" --add-data "card_images/car_554392.png;card_images" --add-data "card_images/borrow_3707947.png;card_images" --add-data "card_images/car_shop.png;card_images" Main_File.py
+=============================================
+Method:2
+===========================================
+pyinstaller --onefile --windowed --debug=all --hidden-import=inflect --hidden-import=inspect --add-data "racing_car.png;." --add-data "Login_Registration_Form.py;." --add-data "Dashboard.py;." --add-data "serviceAccountKey.json;." Main_File.py
+==========================================================
+======================================
+Method:3
+==========
+method3 is more correct to convert pyqt5 application with qt_material library
+to convert the .exe file is more best from the above methods
+##########################===============
+pyinstaller --onefile -i Car_Inventory.ico -w --exclude-module PyQt6 --exclude-module PySide6 --add-data "racing_car.png;." --add-data "serviceAccountKey.json;." --add-data "Images/Frame 422.png;Images" --add-data "Images/my.gif;Images" --add-data "Images/Header.png;Images" --add-data "Images/Blur_image.png;Images" --add-data "Images/Admin_image.png;Images" --add-data "Images/car_window_icon.png;Images" --add-data "dashboard_images/car_inventory.png;dashboard_images" --add-data "dashboard_images/admin_user.png;dashboard_images" --add-data "dashboard_images/search.png;dashboard_images" --add-data "dashboard_images/teamwork.png;dashboard_images" --add-data "dashboard_images/report_header.jpg;dashboard_images" --add-data "Side_bar_icon/home.png;Side_bar_icon" --add-data "Side_bar_icon/sale.png;Side_bar_icon" --add-data "Side_bar_icon/purchase.png;Side_bar_icon" --add-data "Side_bar_icon/employee.png;Side_bar_icon" --add-data "Side_bar_icon/inventory.png;Side_bar_icon" --add-data "Side_bar_icon/financial.png;Side_bar_icon" --add-data "Side_bar_icon/report.png;Side_bar_icon" --add-data "Side_bar_icon/admin.png;Side_bar_icon" --add-data "Side_bar_icon/logut.png;Side_bar_icon" --add-data "card_images/sold_2156144.png;card_images" --add-data "card_images/car_554392.png;card_images" --add-data "card_images/borrow_3707947.png;card_images" --add-data "card_images/car_shop.png;card_images" --add-data "card_images/my_bottom.PNG;card_images" --add-data "card_images/my_bottom1.PNG;card_images" --add-data "card_images/desc.PNG;card_images" --add-data "car_loading.gif;." --add-data "welcome_screen.py;." --add-data "material.xml;." --add-data "material.qss;." --add-data "Dashboard.py;." --add-data "Login_Registration_Form.py;." Main_File.py
+####################################################==============================================================
+Login_Registration_Form.py
+=============================================
+Images/Frame 422.png
+Images/my.gif
+Images/Header.png
+Images/Blur_image.png
+Images/Admin_image.png
+===============================================================
+Dashboard.py
+=====================================================================
+Images/car_window_icon.png
+dashboard_images/car_inventory.png
+dashboard_images/admin_user.png
+dashboard_images/search.png
+dashboard_images/teamwork.png
+===================================
+Side_bar_icon/home.png
+Side_bar_icon/sale.png
+Side_bar_icon/purchase.png
+Side_bar_icon/employee.png
+Side_bar_icon/inventory.png
+Side_bar_icon/financial.png
+Side_bar_icon/report.png
+Side_bar_icon/admin.png
+Side_bar_icon/logut.png
+========================================
+card_images/sold_2156144.png
+card_images/car_554392.png
+card_images/borrow_3707947.png
+card_images/car_shop.png
